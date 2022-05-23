@@ -8,7 +8,7 @@ const Main = () => {
             <div className="mainContainer">
                 <div className="sliderBlock"><Slider /></div>
                 <div className="titleBlock">
-                    <h2>Все кросовки</h2>
+                    <h2>Все кроссовки</h2>
                     <input type="text" placeholder='Поиск...' />
                 </div>
             </div>
