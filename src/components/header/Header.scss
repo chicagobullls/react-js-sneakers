@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    height: 128px;
+
+    .header__wrapper {
+        width: 1030px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .headerLeft {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+
+            &__info {
+                margin: 0px;
+            }
+
+            .mainLogo {
+                width: 40px;
+                height: 40px;
+            }
+
+            .headerLeft__info {
+                margin-left: 17px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h1 {
+                    margin: 0px;
+                    font-size: 20px;
+                }
+
+                p {
+                    margin: 0px;
+                }
+            }
+        }
+
+        .headerRight {
+            display: flex;
+
+            .headerRight__cart {
+                display: flex;
+            }
+        }
+    }
+}
