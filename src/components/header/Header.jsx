@@ -20,10 +20,10 @@ const Header = () => {
                 <div className="headerRight">
                     <div className="headerRight__cart">
                         <img src={cartLogo} alt="Корзина" />
-                        <p>1250р</p>
+                        <p>1250руб.</p>
                     </div>
-                    <img src={favoriteLogo} alt="Избранное" />
-                    <img src={loginLogo} alt="Профиль" />
+                    <img className='favoriteLogo' src={favoriteLogo} alt="Избранное" />
+                    <img className='loginLogo' src={loginLogo} alt="Профиль" />
                 </div>
             </div>
         </div >

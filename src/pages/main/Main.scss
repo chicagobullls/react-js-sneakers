@@ -1,0 +1,44 @@
+.mainWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mainContainer {
+        width: 960px;
+        height: 1500px;
+
+        .sliderBlock {
+            display: flex;
+            justify-content: center;
+            margin: 38px 60px
+        }
+
+        .titleBlock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h2 {
+                margin: 0px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 39px;
+            }
+
+            input {
+                width: 250px;
+                height: 40px;
+                border-radius: 10px;
+                border: 1px solid #F3F3F3;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #C4C4C4;
+            }
+        }
+    }
+}

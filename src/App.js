@@ -1,4 +1,5 @@
 import Header from "./components/header/Header";
+import Main from "./pages/main/Main";
 
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <div className='wrapper'>
         <Header />
+        <Main />
       </div>
     </div>
   );

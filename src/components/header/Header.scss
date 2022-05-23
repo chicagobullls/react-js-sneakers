@@ -4,6 +4,7 @@
     align-items: center;
     border-radius: 20px 20px 0px 0px;
     height: 128px;
+    border-bottom: 1px solid #EAEAEA;
 
     .header__wrapper {
         width: 1030px;
@@ -38,15 +39,39 @@
 
                 p {
                     margin: 0px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #9D9D9D;
                 }
             }
         }
 
         .headerRight {
             display: flex;
+            align-items: center;
+            margin-right: 40px;
 
             .headerRight__cart {
                 display: flex;
+                align-items: center;
+                margin-right: 30px;
+
+                p {
+                    margin-left: 10px;
+                    color: #5C5C5C;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 17px
+                }
+            }
+
+            .favoriteLogo {
+                margin-right: 30px;
             }
         }
     }
