@@ -7,16 +7,35 @@
         width: 960px;
         height: 1500px;
 
-        .sliderBlock {
+        .main__sliderBlock {
             display: flex;
             justify-content: center;
-            margin: 39px 60px
+            margin: 35px 60px
         }
 
-        .titleBlock {
+        .main__titleBlock {
             display: flex;
             justify-content: space-between;
             align-items: center;
+
+            .main__search-block {
+                width: 250px;
+                height: 45px;
+                border-radius: 10px;
+                border: 1px solid #F3F3F3;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #C4C4C4;
+                display: flex;
+                align-items: center;
+            }
+
+            .searchLogo {
+                margin-left: 18px;
+            }
 
             h2 {
                 margin: 0px;
@@ -28,17 +47,24 @@
             }
 
             input {
-                width: 250px;
-                height: 40px;
-                border-radius: 10px;
-                border: 1px solid #F3F3F3;
+                border: none;
+                width: 190px;
+                height: 42px;
+                margin-left: 14px;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 17px;
                 color: #C4C4C4;
+                outline: none;
             }
+        }
+
+        .main__sneakers-block {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
     }
 }
