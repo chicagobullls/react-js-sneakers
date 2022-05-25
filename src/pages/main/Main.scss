@@ -5,7 +5,7 @@
 
     .mainContainer {
         width: 960px;
-        height: 1500px;
+        height: 100%;
 
         .main__sliderBlock {
             display: flex;
@@ -62,9 +62,12 @@
         }
 
         .main__sneakers-block {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            display: grid;
+            grid-template-columns: repeat(4, 212px);
+            column-gap: 40px;
+            row-gap: 40px;
         }
     }
 }

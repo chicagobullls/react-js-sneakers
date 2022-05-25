@@ -3,15 +3,15 @@ import jordan from '../../assets/image5.jpg'
 import plusLogo from '../../assets/plusLogo.svg'
 import './SneakerCard.scss'
 
-const SneakerCard = () => {
+const SneakerCard = ({ id, name, price, img }) => {
     return (
         <div className='cardWrapper'>
-            <img src={jordan} className='itemPhoto' alt="ФотоТовара" />
-            <h5>Мужские Кроссовки Nike Blazer Mid Suede</h5>
+            <img src={img} className='itemPhoto' alt="ФотоТовара" />
+            <h5>{name}</h5>
             <div className="priceBlock">
                 <div className="priceInfo">
                     <span>Цена:</span>
-                    <b>15000 руб.</b>
+                    <b>{price} руб.</b>
                 </div>
                 <img className='addToCartBtn' src={plusLogo} alt="Добавить" />
             </div>

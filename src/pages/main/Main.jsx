@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Slider from '../../components/slider/Slider';
 import searchLogo from '../../assets/SearchLogo.svg'
 import './Main.scss'
 import SneakerCard from '../../components/sneakerCard/SneakerCard';
+import Cart from '../../components/cart/Cart';
+import axios from 'axios';
 
 const Main = () => {
-    const sus = 8 & 4;
+    const [sneakers, setSneakers] = useState()
+    useEffect(() => {
+        axios.get(`http://localhost:3000/sneakers`)
+            .then((resp) => {
+                const allSneakers = resp.data;
+                setSneakers(allSneakers);
+            });
 
-    console.log(sus)
+    }, []);
+    console.log(setSneakers)
+
     return (
         <div className='mainWrapper'>
             <div className="mainContainer">
@@ -22,12 +32,11 @@ const Main = () => {
                 </div>
 
                 <div className="main__sneakers-block">
-                    <SneakerCard />
-                    <SneakerCard />
-                    <SneakerCard />
-                    <SneakerCard />
-                    <SneakerCard />
+                    {sneakers?.map((data, index) => {
+                        return <SneakerCard key={index} id={data.id} name={data.name} price={data.price} img={data.img} />
+                    })}
                 </div>
+                <Cart />
             </div>
 
         </div>

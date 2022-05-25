@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
                 <div className="headerRight">
                     <div className="headerRight__cart">
-                        <img src={cartLogo} alt="Корзина" />
+                        <img className='cartBtn' src={cartLogo} alt="Корзина" />
                         <p>1250руб.</p>
                     </div>
                     <img className='favoriteLogo' src={favoriteLogo} alt="Избранное" />

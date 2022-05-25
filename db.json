@@ -1,0 +1,44 @@
+{
+  "sneakers": [
+    {
+      "id": 1,
+      "name": "Мужские Кроссовки Nike Blazer Mid Suede",
+      "price": "12 999",
+      "img": "https://sun9-west.userapi.com/sun9-7/s/v1/ig2/qlqHdLcdwr0fht6xw8cS7nYPlpMcziIRUqe6ymYzRO1oMURdjkR6Q0AVormTxWMf9RCIf4wig4eHIffqrXPCfbu7.jpg?size=266x224&quality=95&type=album"
+    },
+    {
+      "id": 2,
+      "name": "Мужские Кроссовки Nike Air Max 270",
+      "price": "12 999",
+      "img": "https://sun4.userapi.com/sun4-17/s/v1/ig2/TSbuPmMt8oX4ajTIc21JHUgoPRKNRNQTd6cahJEXHLRZ_HA-x9lod9u0WBBWhNsAxc2eOYUnY_-Sm1vf3-Tro0JK.jpg?size=266x224&quality=95&type=album"
+    },
+    {
+      "id": 3,
+      "name": "Мужские Кроссовки Under Armour Curry 8",
+      "price": "15 199",
+      "img": "https://sun9-east.userapi.com/sun9-17/s/v1/ig2/VqB54WniuwUqisGIs-OBdQt0KZil49NRbHd7g_LY7VR0NeY51Vhc0003WEju9qvXIrldNSq3SYMJK4kaipvLI_Lt.jpg?size=266x224&quality=95&type=album"
+    },
+    {
+      "id": 4,
+      "name": "Кроссовки Puma X Aka Boku Future Rider",
+      "price": "8 999",
+      "img": "https://sun9-west.userapi.com/sun9-6/s/v1/ig2/56Zyjmhlq_nzgajA0n3Fat4PwTtVeFMkfK7rs686TvlpBBUDv9AKMCpGn8IMZxHEyMUScMVPMOhwRC0xAGwgvOq9.jpg?size=266x224&quality=95&type=album"
+    },
+    {
+      "id": 5,
+      "name": "Мужские Кроссовки Nike Kyrie 7",
+      "price": "11 299",
+      "img": "https://sun4.userapi.com/sun4-10/s/v1/ig2/sCBrNbL8QPOIamav5V5dBx7Tl9tuMJeWQ1uiDlHRRNp8ub0EQ36i26G6Ia2mm_vH7uDLCrM8zdFtth4oKxX-3M46.jpg?size=266x224&quality=95&type=album"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
